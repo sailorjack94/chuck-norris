@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 .button-wrapper {
     padding: 25px;
     text-align: center;
@@ -14,6 +18,7 @@
     border: 1px solid #000000;
     outline: none;
     transition: 1s ease-in-out;
+    font-family: 'Roboto', sans-serif;
   }
   
   svg {

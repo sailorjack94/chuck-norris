@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
 .joke-body {
+    color:white;
+    font-family: 'Roboto', sans-serif;
     justify-content:center;
     text-align:center;
     margin: auto;

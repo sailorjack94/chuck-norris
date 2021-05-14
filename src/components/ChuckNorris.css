@@ -1,0 +1,14 @@
+.image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    padding: 15px;
+    margin:auto;
+}

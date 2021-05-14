@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import ChuckNorris from '../components/ChuckNorris';
 import GetJoke from '../components/GetJoke';
 import Joke from '../components/Joke';
+import './CNJokeHolder.css'
 
 
 const CNJokeHolder = () => {
@@ -26,12 +27,12 @@ const CNJokeHolder = () => {
 
 
     return(
-        <>
+        <div className="container">
         <ChuckNorris />
         <Joke joke = {joke}/>
 
         <GetJoke anotherJoke = {anotherJoke} />
-        </>
+        </div>
     )
 };
 

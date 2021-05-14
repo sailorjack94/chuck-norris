@@ -1,4 +1,5 @@
 import React from 'react';
+import './GetJoke.css'
 
 
 const GetJoke = ({anotherJoke}) => {
@@ -10,9 +11,9 @@ const GetJoke = ({anotherJoke}) => {
 
 
     return(
-        <>
+        <div className = 'button-wrapper'>
         <button onClick={moreJokes}>more facts.</button>
-        </>
+        </div>
     )
 }
 

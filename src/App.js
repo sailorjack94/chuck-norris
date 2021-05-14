@@ -1,10 +1,10 @@
-
 import './App.css';
+import CNJokeHolder from './containers/CNJokeHolder';
 
 function App() {
   return (
 <div>
-  <h1>Chuck Norris is coming...</h1>
+  <CNJokeHolder />
 </div>
   );
 }

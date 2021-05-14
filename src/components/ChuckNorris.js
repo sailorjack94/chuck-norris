@@ -5,7 +5,7 @@ import './ChuckNorris.css'
 const ChuckNorris = () => {
     return(
         <div className="image">
-            <img src={chucknorris} />
+            <img alt='Chuck Himself' src={chucknorris} />
         </div>
     )
 }

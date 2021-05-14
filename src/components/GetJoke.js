@@ -12,7 +12,7 @@ const GetJoke = ({anotherJoke}) => {
 
     return(
         <div className = 'button-wrapper'>
-        <button className='btn' onClick={moreJokes}>more facts.</button>
+        <button className='btn' onClick={moreJokes}>Click Me</button>
         </div>
     )
 }
